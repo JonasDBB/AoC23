@@ -16,3 +16,7 @@ target_link_options(day2 PUBLIC -fsanitize=address)
 add_executable(day3 util.cpp 03.cpp)
 target_compile_options(day3 PUBLIC ${COMPILE_FLAGS})
 target_link_options(day3 PUBLIC -fsanitize=address)
+
+add_executable(day4 util.cpp 04.cpp)
+target_compile_options(day4 PUBLIC ${COMPILE_FLAGS})
+target_link_options(day4 PUBLIC -fsanitize=address)
