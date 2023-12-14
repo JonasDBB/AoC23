@@ -43,3 +43,8 @@ add_executable(day7 util.cpp 07.cpp)
 target_compile_options(day7 PUBLIC ${COMPILE_FLAGS})
 target_link_options(day7 PUBLIC -fsanitize=address)
 target_link_libraries(day7 fmt::fmt)
+
+add_executable(day8 util.cpp 08.cpp)
+target_compile_options(day8 PUBLIC ${COMPILE_FLAGS})
+target_link_options(day8 PUBLIC -fsanitize=address)
+target_link_libraries(day8 fmt::fmt)
